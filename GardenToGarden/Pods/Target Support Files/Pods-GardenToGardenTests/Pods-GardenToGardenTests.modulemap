@@ -1,0 +1,6 @@
+framework module Pods_GardenToGardenTests {
+  umbrella header "Pods-GardenToGardenTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
