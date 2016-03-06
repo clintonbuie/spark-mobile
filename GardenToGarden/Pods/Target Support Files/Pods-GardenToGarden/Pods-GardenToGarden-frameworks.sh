@@ -90,6 +90,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-GardenToGarden/Realm.framework"
   install_framework "Pods-GardenToGarden/RealmSwift.framework"
   install_framework "Pods-GardenToGarden/SwiftyJSON.framework"
+  install_framework "Pods-GardenToGarden/SideMenu.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-GardenToGarden/Alamofire.framework"
@@ -98,4 +99,5 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-GardenToGarden/Realm.framework"
   install_framework "Pods-GardenToGarden/RealmSwift.framework"
   install_framework "Pods-GardenToGarden/SwiftyJSON.framework"
+  install_framework "Pods-GardenToGarden/SideMenu.framework"
 fi
