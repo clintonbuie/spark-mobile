@@ -10,6 +10,8 @@
 		2412B37597ED2ACC907AD6AA /* Pods_GardenToGardenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E323A1F53D575F6FCB12DDF /* Pods_GardenToGardenUITests.framework */; };
 		86FD780C5B44815262734389 /* Pods_GardenToGarden.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB9B4FDB488B58786FA010C /* Pods_GardenToGarden.framework */; };
 		9AF59F64CEA3955F53389E2D /* Pods_GardenToGardenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8F6A18D8C55DFCFF7CD9FA /* Pods_GardenToGardenTests.framework */; };
+		A65644581C8BBBA500B25454 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65B73001C8B96B40023EC6D /* ViewController.swift */; };
+		A65644591C8BBBA600B25454 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65B73001C8B96B40023EC6D /* ViewController.swift */; };
 		A65B72FF1C8B96B40023EC6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65B72FE1C8B96B40023EC6D /* AppDelegate.swift */; };
 		A65B73011C8B96B40023EC6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65B73001C8B96B40023EC6D /* ViewController.swift */; };
 		A65B73041C8B96B40023EC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65B73021C8B96B40023EC6D /* Main.storyboard */; };
@@ -436,6 +438,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65644581C8BBBA500B25454 /* ViewController.swift in Sources */,
 				A65B73141C8B96B40023EC6D /* GardenToGardenTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65644591C8BBBA600B25454 /* ViewController.swift in Sources */,
 				A65B731F1C8B96B40023EC6D /* GardenToGardenUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
