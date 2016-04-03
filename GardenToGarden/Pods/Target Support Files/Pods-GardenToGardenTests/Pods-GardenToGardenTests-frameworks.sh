@@ -88,6 +88,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-GardenToGardenTests/AlamofireImage.framework"
   install_framework "Pods-GardenToGardenTests/Realm.framework"
   install_framework "Pods-GardenToGardenTests/RealmSwift.framework"
+  install_framework "Pods-GardenToGardenTests/SlideMenuControllerSwift.framework"
   install_framework "Pods-GardenToGardenTests/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -95,5 +96,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-GardenToGardenTests/AlamofireImage.framework"
   install_framework "Pods-GardenToGardenTests/Realm.framework"
   install_framework "Pods-GardenToGardenTests/RealmSwift.framework"
+  install_framework "Pods-GardenToGardenTests/SlideMenuControllerSwift.framework"
   install_framework "Pods-GardenToGardenTests/SwiftyJSON.framework"
 fi

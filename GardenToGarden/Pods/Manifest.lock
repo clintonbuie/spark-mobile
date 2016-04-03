@@ -7,12 +7,14 @@ PODS:
   - Realm/Headers (0.98.3)
   - RealmSwift (0.98.3):
     - Realm (= 0.98.3)
+  - SlideMenuControllerSwift (2.0.6)
   - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
   - Alamofire (~> 3.0)
   - AlamofireImage (~> 2.2.0)
   - RealmSwift (~> 0.98)
+  - SlideMenuControllerSwift (~> 2.0.6)
   - SwiftyJSON (~> 2.3.1)
 
 SPEC CHECKSUMS:
@@ -20,6 +22,7 @@ SPEC CHECKSUMS:
   AlamofireImage: bedb8a4bdfb98eda81ba12952fba6e9e90420922
   Realm: c6a7d00221a2d5177810a674aebd40c5e0b70b0f
   RealmSwift: d6ecad6e4c2a645d6ac956c2c7e9efb375f39c31
+  SlideMenuControllerSwift: 143343f05b79aef3e2bb4dc72a1dc373ffa66d6c
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
 COCOAPODS: 0.39.0

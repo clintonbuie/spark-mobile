@@ -9,6 +9,7 @@ def shared_pods
     pod 'AlamofireImage', '~> 2.2.0'
     pod 'SwiftyJSON', '~> 2.3.1'
     pod 'RealmSwift', '~> 0.98'
+    pod 'SlideMenuControllerSwift', '~> 2.0.6'
 end
 
 target 'GardenToGarden' do
