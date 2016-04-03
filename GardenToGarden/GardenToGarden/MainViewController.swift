@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SideMenu
 
 public protocol Menu {
     var menuItems: [UIView] {get}

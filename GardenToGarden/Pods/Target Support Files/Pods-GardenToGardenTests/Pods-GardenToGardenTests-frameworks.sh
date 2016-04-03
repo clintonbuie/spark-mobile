@@ -86,18 +86,14 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-GardenToGardenTests/Alamofire.framework"
   install_framework "Pods-GardenToGardenTests/AlamofireImage.framework"
-  install_framework "Pods-GardenToGardenTests/Chatto.framework"
   install_framework "Pods-GardenToGardenTests/Realm.framework"
   install_framework "Pods-GardenToGardenTests/RealmSwift.framework"
   install_framework "Pods-GardenToGardenTests/SwiftyJSON.framework"
-  install_framework "Pods-GardenToGardenTests/SideMenu.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-GardenToGardenTests/Alamofire.framework"
   install_framework "Pods-GardenToGardenTests/AlamofireImage.framework"
-  install_framework "Pods-GardenToGardenTests/Chatto.framework"
   install_framework "Pods-GardenToGardenTests/Realm.framework"
   install_framework "Pods-GardenToGardenTests/RealmSwift.framework"
   install_framework "Pods-GardenToGardenTests/SwiftyJSON.framework"
-  install_framework "Pods-GardenToGardenTests/SideMenu.framework"
 fi
