@@ -15,7 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        
+        let mainViewController:MainViewController = MainViewController.controller()
+        let navigationController = UINavigationController(rootViewController: mainViewController)
+        window!.rootViewController = navigationController
+        window!.makeKeyAndVisible()
         return true
     }
 
